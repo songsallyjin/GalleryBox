@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ProjectModuleManager">
+<<<<<<< HEAD
     <modules />
+=======
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GalleryBox.iml" filepath="$PROJECT_DIR$/GalleryBox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+>>>>>>> e24b54237beb9c0aa4fef4f886c6e5c2df9b36aa
   </component>
 </project>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">测试客｛Hello!World｝</string>
+    <string name="login_label_username">账号</string>
+    <string name="login_label_password">密码</string>
+    <string name="login_label_signin">登录</string>
+    <string name="login_status_logging_in">登录中...</string>
+    <string name="login_username_hint">Email或手机号</string>
+    <string name="login_register_link">没有帐号？ <a href="#" mce_href="#">注册</a></string>
+    <string name="hello">Hello World, MainTabActivity!</string>
+    <string name="main_home">首页</string>
+    <string name="main_note">标记</string>
+    <string name="main_bell">惊喜</string>
+    <string name="main_coffee_time">休闲时光</string>
+    <string name="test1">1</string>
+    <string name="test2">1</string>
+    <string name="test3">1</string>
+    <string name="test4">1</string>
+</resources>
