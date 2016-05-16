@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+               android:id="@android:id/tabhost"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.0"
+            android:visibility="gone"/>
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0"
+
+           >
+            <RadioGroup
+                android:id="@+id/main_radio"
+                android:gravity="center_vertical"
+                android:layout_gravity="bottom"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bgicon6"
+                >
+                <RadioButton
+                    android:id="@id/radio_button0"
+                    style="@style/home_tab_bottom"
+                    android:checked="true"
+                    android:text="@string/main_home"
+                    android:drawableTop="@drawable/home_tab_selector"
+                    />
+                <!--android:drawableTop="@drawable/icon602"
+                  -->
+                <RadioButton
+                    android:id="@id/radio_button1"
+                    android:layout_marginTop="2.0dip"
+                    android:text="@string/main_note"
+                    style="@style/home_tab_bottom"
+                    android:drawableTop="@drawable/note_tab_selector"
+                    />
+                <!--android:drawableTop="@drawable/icon402"
+                 -->
+                <RadioButton
+                    android:id="@id/radio_button2"
+                    android:layout_marginTop="2.0dip"
+                    android:text="@string/main_bell"
+                    style="@style/home_tab_bottom"
+                    android:drawableTop="@drawable/recommondation_tab_selector"/>
+                <!--android:drawableTop="@drawable/icon702"-->
+                <RadioButton
+                    android:id="@id/radio_button3"
+                    android:layout_marginTop="2.0dip"
+                    android:text="@string/main_coffee_time"
+                    android:drawableTop="@drawable/coffee_time_tab_selector"
+                    style="@style/home_tab_bottom"/><!--android:drawableTop="@drawable/icon502"-->
+            </RadioGroup>
+
+        </FrameLayout>
+    </LinearLayout>
+</TabHost>
+
+
